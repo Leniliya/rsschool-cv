@@ -1,19 +1,23 @@
-#Vasilets Alena
+# Vasilets Alena
 
-##Junior frontend developer
+## Junior frontend developer
 
-###Progects
+### Progects
+
 [Minesweeper](https://rolling-scopes-school.github.io/leniliya-JSFE2023Q1/minesweeper/)
 
-###Skills
-*HTML5
-*CSS3
-*Git
-*JavaScript
+### Skills
 
-###Code
+- HTML5
+- CSS3
+- Git
+- JavaScript
+- Figma
 
-```class Stack {
+### Code
+
+```JavaScript
+class Stack {
 constructor() {
 this.stack = [];
 }
@@ -34,6 +38,7 @@ return p;
 }
 ```
 
-Languages
-*Russian - native
-*English - pre-intermidate
+### Languages
+
+- Russian - native
+- English - pre-intermidate
