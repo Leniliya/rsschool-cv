@@ -142,3 +142,37 @@ img {
 .rss-logo {
   width: 50px;
 }
+
+.list-item {
+  position: relative;
+  list-style-type: none;
+}
+
+.list-item::before {
+  top: 5px;
+  left: -20px;
+  position: absolute;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #EACDCB;
+}
+
+#contacts .list-item {
+  padding-bottom: 5px;
+}
+
+#projects .list-item::before {
+  background-color: #4B7C7B;
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -30px;
+  width: 30px;
+  height: 25px;
+}
